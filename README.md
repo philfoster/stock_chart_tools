@@ -1,10 +1,10 @@
 # stock_chart_tools
 Python module for calculating stock charts using yfinance and pandas
 
-NAME
+## NAME
     stock_chart_tools
 
-DESCRIPTION
+## DESCRIPTION
     Functions to create data series for some technical indicators,
     which could be charted using various charting tools
     
@@ -14,7 +14,7 @@ DESCRIPTION
         OBV  - On balance volume
         SSO  - Slow stochastic Oscillator
 
-FUNCTIONS
+## FUNCTIONS
     EMA(data_series, periods)
         Calculate the exponential moving average 
         
