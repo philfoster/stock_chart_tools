@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 import argparse
-from stock_chart_tools import get_historical_data, COLUMN_CLOSE, COLUMN_HIGH, COLUMN_LOW, SSO
+from stock_chart_tools.utils import get_historical_data, COLUMN_CLOSE, COLUMN_HIGH, COLUMN_LOW, SSO
 
 def main(symbol):
     stock_data = get_historical_data(symbol)
