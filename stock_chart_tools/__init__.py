@@ -8,6 +8,6 @@
         tools.OBV  - On balance volume
         tools.SSO  - Slow stochastic Oscillator
 """
-__version__ = "0.9.0"
+__version__ = "0.1.0"
 
 from . import utils

@@ -5,10 +5,12 @@ from stock_chart_tools import __version__
 with open("requirements.txt") as requirements:
     req = [i.strip() for i in requirements]
 
+README = "Tools for creating data series that can be charted"
+
 setup(
     name='stock_chart_tools',
     version=__version__,
-    description='Tools for creating data series that can be chartes',
+    description='Tools for creating data series that can be charted',
     url='https://github.com/philfoster/stock_chart_tools',
     author='Philip Foster',
     author_email='phil@the-fosters.net',
@@ -18,6 +20,8 @@ setup(
     install_requires=req,
     platforms=["any"],
     keywords=["technical-analysis", "macd", "ema", "sma", "stocks"],
+    long_description_content_type="text/markdown",
+    long_description=README,
 
     classifiers=[
         'Development Status :: 4 - Beta',
